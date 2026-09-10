@@ -8,15 +8,36 @@ body {
   width: 600px;
   height: 400px;
   margin: 100px auto 0;
-  border: 2px solid black;
   color: #eeeeee;
   background-color: #1b244a;
+  align-items: center;
 }
 
 .team {
+  border: 2px solid white;
+  /* height: 90%; */
+  width: 40%;
+  text-align: center;
 }
 
 h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+}
+
+.score {
+  color: #f94f6d;
+  font-size: 90px;
+  background-color: #080001;
+}
+
+button {
+  color: #9aabd8;
+  font-size: 18px;
+  background-color: #1b244a;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  /* padding: 6px 10px; */
+  height: 45px;
+  width: 45px;
 }
