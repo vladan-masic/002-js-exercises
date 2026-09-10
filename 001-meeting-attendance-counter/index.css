@@ -46,14 +46,23 @@ button {
   border-radius: 5px;
   font-family: "Josefin Sans", sans-serif;
   border: 2px solid #2d1e2f;
+  cursor: pointer;
 }
 
 #increment-btn {
   background: #fcf6b1;
 }
 
+#increment-btn:hover {
+  background: #fdf166;
+}
+
 #save-btn {
   background: #a9e5bb;
+}
+
+#save-btn:hover {
+  background: #72f098;
 }
 
 #save-el {
