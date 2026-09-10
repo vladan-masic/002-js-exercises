@@ -8,20 +8,20 @@
     <div class="container">
         <div class="team">
             <h3>HOME</h3>
-            <p class="score">0</p>
+            <p class="score" id="score-home">0</p>
             <div class="btns">
-                <button class="btn">+1</button>
-                <button class="btn">+2</button>
-                <button class="btn">+3</button>
+                <button class="btn" onclick="incrementHomePlayerByOne()">+1</button>
+                <button class="btn" onclick="incrementHomePlayerByTwo()">+2</button>
+                <button class="btn" onclick="incrementHomePlayerByThree()">+3</button>
             </div>
         </div>
         <div class="team">
             <h3>GUEST</h3>
-            <p class="score">0</p>
+            <p class="score" id="score-guest">0</p>
             <div class="btns">
-                <button class="btn">+1</button>
-                <button class="btn">+2</button>
-                <button class="btn">+3</button>
+                <button class="btn" onclick="incrementGuestPlayerByOne()">+1</button>
+                <button class="btn" onclick="incrementGuestPlayerByTwo()">+2</button>
+                <button class="btn" onclick="incrementGuestPlayerByThree()">+3</button>
             </div>
         </div>
     </div>
