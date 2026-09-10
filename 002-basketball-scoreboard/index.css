@@ -9,26 +9,30 @@ body {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 600px;
   height: 400px;
   margin: 100px auto 0;
   color: #eeeeee;
   background-color: #1b244a;
   align-items: center;
+  gap: 130px;
 }
 
 .team {
-  border: 2px solid white;
-  /* height: 90%; */
-  width: 40%;
-  text-align: center;
+  /* border: 2px solid white; */
+  width: 25%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
 h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
-  margin: 0;
+  margin: -8px;
 }
 
 .score {
@@ -37,6 +41,14 @@ h3 {
   font-family: "Cursed Timer";
   background-color: #080001;
   margin: 0;
+  padding-top: 18px;
+  align-self: stretch;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  gap: 8px;
 }
 
 button {
@@ -49,4 +61,5 @@ button {
   height: 45px;
   width: 45px;
   cursor: pointer;
+  padding-top: 4px;
 }
