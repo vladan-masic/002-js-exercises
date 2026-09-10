@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Cursed Timer";
+  src: url("CursedTimerUlil-Aznm.ttf");
+}
+
 body {
   margin: 0;
 }
@@ -23,21 +28,25 @@ body {
 h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
+  margin: 0;
 }
 
 .score {
   color: #f94f6d;
   font-size: 90px;
+  font-family: "Cursed Timer";
   background-color: #080001;
+  margin: 0;
 }
 
 button {
   color: #9aabd8;
   font-size: 18px;
+  font-family: "Cursed Timer";
   background-color: #1b244a;
   border: 2px solid #9aabd8;
   border-radius: 5px;
-  /* padding: 6px 10px; */
   height: 45px;
   width: 45px;
+  cursor: pointer;
 }
