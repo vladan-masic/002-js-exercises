@@ -96,6 +96,14 @@ const btn = document.querySelector(".btn");
 const output1 = document.getElementById("output-1");
 const output2 = document.getElementById("output-2");
 btn.addEventListener("click", function () {
-  output1.textContent = Math.random();
-  output2.textContent = Math.random();
+  output1.textContent = generatePassword();
+  output2.textContent = generatePassword();
 });
+
+function generatePassword() {
+  let password = "";
+  for (let i = 0; i < 15; i++) {
+    password += characters[Math.floor(Math.random() * characters.length)];
+  }
+  return password;
+}
