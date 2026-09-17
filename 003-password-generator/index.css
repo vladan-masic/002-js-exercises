@@ -35,4 +35,23 @@ body {
   font-size: 20px;
   line-height: 28px;
   margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  /* display: block; */
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+  background-color: #10b981;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 18px;
+}
+
+.btn:hover {
+  background-color: #34c091;
+  cursor: pointer;
 }
