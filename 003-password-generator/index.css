@@ -7,7 +7,6 @@ body {
 
 .container {
   margin: 50px auto 0;
-  /* border: 1px solid black; */
   height: 550px;
   width: 550px;
   background-color: #1f2937;
@@ -21,7 +20,7 @@ body {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -2.5%;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .green-heading-span {
@@ -39,8 +38,7 @@ body {
 }
 
 .btn {
-  /* display: block; */
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -59,4 +57,25 @@ body {
 .separator {
   border-bottom: 1px solid #2f3e53;
   margin: 35px 0;
+}
+
+.outputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.output {
+  margin: 0;
+  height: 39px;
+  width: 211px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #55f991;
+  line-height: 32px;
+  background-color: #273549;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
 }
