@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  box-sizing: border-box;
   background-color: #1c1c1c;
   color: #ffffff;
 }
@@ -19,7 +22,7 @@ body {
   font-weight: 800;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -2.5%;
+  letter-spacing: -0.025em;
   margin: 0;
 }
 
