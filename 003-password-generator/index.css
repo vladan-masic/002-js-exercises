@@ -55,3 +55,8 @@ body {
   background-color: #34c091;
   cursor: pointer;
 }
+
+.separator {
+  border-bottom: 1px solid #2f3e53;
+  margin: 35px 0;
+}
